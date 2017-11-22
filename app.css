@@ -40,6 +40,12 @@ hr {
     background-image: linear-gradient(to right, #333, #333, #333);
 }
 
+@media(max-width: 1024px) {
+    .col-lg-12.text-center {
+        padding-top: 55%;
+    }
+}
+
 @media(max-width: 768px) {
     .col-lg-12.text-center {
         padding-top: 40%;
